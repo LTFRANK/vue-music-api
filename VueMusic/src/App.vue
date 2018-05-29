@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header class="header">
-      <h1><i class="fa fa-music"></i>音乐随心听</h1>
+       <h1><router-link to="/"><i class="fa fa-music"></i>音乐随心听</router-link> </h1>
       <a href="###" @click="toggleShow(false)"><i class="fa fa-search" title="搜索"></i></a>
       <router-link to="/historylist"> <i class="fa fa-history" title="播放记录"></i> </router-link> 
     </header>
